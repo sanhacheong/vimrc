@@ -30,6 +30,9 @@ set guioptions-=L
 " Colorscheme
 set background=dark
 colorscheme peaksea
+" Added by Sanha, 20230503: transparent background
+hi NonText ctermbg=none
+hi Normal guibg=NONE ctermbg=NONE
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
